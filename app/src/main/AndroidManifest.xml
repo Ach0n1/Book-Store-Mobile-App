@@ -14,6 +14,24 @@
         android:theme="@style/Theme.BookStoreMobileApp"
         tools:targetApi="31">
         <activity
+            android:name=".UserData"
+            android:exported="false" />
+        <activity
+            android:name=".LoggedInAbout"
+            android:exported="false" />
+        <activity
+            android:name=".LoggedInMain"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

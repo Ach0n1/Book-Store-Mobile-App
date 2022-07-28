@@ -1,26 +1,19 @@
 package com.example.bookstoremobileapp;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.drawerlayout.widget.DrawerLayout;
-
-
-public class MainActivity extends AppCompatActivity {
-
-    public DrawerLayout drawerLayout;
-    public ActionBarDrawerToggle actionBarDrawerToggle;
+public class About extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.activity_about);
     }
 
 
@@ -31,16 +24,15 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
         switch (item.getItemId()) {
             case R.id.nav_main:
-                setContentView(R.layout.activity_main);
+                changeActivityToMain();
                 return true;
             case R.id.nav_about:
-                changeActivityToAbout();
+                setContentView(R.layout.activity_about);
                 return true;
             case R.id.nav_login:
                 changeActivityToLogin();
@@ -51,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void changeActivityToAbout() {
-        Intent intent = new Intent(this, About.class);
+    public void changeActivityToMain() {
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 

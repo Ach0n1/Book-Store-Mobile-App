@@ -2,4 +2,20 @@
     <string name="app_name">Knjižara Perce</string>
     <string name="nav_open">Open</string>
     <string name="nav_close">Close</string>
+    <string name="dont_have_an_account">Nemate nalog?</string>
+    <string name="registration">Registrujte se</string>
+    <string name="login">Prijava</string>
+    <string name="main">Početna</string>
+    <string name="about">O nama</string>
+    <string name="recommendation">Preporučene</string>
+    <string name="user_data">Korisnički podaci</string>
+    <string name="cart">Korpa</string>
+    <string name="logout">Odjava</string>
+    <string name="first_name">Ime:</string>
+    <string name="last_name">Prezime:</string>
+    <string name="address">Adresa:</string>
+    <string name="phone">Kontakt telefon:</string>
+    <string name="username">Korisničko ime:</string>
+    <string name="password">Lozinka:</string>
+
 </resources>

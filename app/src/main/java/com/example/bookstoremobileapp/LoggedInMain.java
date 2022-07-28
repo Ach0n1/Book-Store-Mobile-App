@@ -1,33 +1,25 @@
 package com.example.bookstoremobileapp;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.drawerlayout.widget.DrawerLayout;
-
-
-public class MainActivity extends AppCompatActivity {
-
-    public DrawerLayout drawerLayout;
-    public ActionBarDrawerToggle actionBarDrawerToggle;
+public class LoggedInMain extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.activity_logged_in_main);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.navigation_menu, menu);
+        inflater.inflate(R.menu.logged_in_navigation_menu, menu);
         return true;
     }
 
@@ -36,14 +28,17 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
 
         switch (item.getItemId()) {
-            case R.id.nav_main:
-                setContentView(R.layout.activity_main);
+            case R.id.logged_in_nav_main:
+                setContentView(R.layout.activity_logged_in_main);
                 return true;
-            case R.id.nav_about:
+            case R.id.logged_in_nav_about:
                 changeActivityToAbout();
                 return true;
-            case R.id.nav_login:
-                changeActivityToLogin();
+            case R.id.logged_in_nav_user_data:
+                changeActivityToUserData();
+                return true;
+            case R.id.logout:
+                changeActivityToMainLoggedOut();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -52,12 +47,17 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void changeActivityToAbout() {
-        Intent intent = new Intent(this, About.class);
+        Intent intent = new Intent(this, LoggedInAbout.class);
         startActivity(intent);
     }
 
-    public void changeActivityToLogin() {
-        Intent intent = new Intent(this, Login.class);
+    public void changeActivityToMainLoggedOut() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void changeActivityToUserData() {
+        Intent intent = new Intent(this, UserData.class);
         startActivity(intent);
     }
 }

@@ -9,7 +9,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:background="@drawable/background"
-    tools:context=".MainActivity"
+    tools:context=".LoggedInMain"
     tools:ignore="HardcodedText">
 
 
@@ -313,6 +313,6 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        app:menu="@menu/navigation_menu" />
+        app:menu="@menu/logged_in_navigation_menu" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

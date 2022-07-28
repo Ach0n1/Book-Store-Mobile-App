@@ -1,28 +1,21 @@
 package com.example.bookstoremobileapp;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.drawerlayout.widget.DrawerLayout;
-
-
-public class MainActivity extends AppCompatActivity {
-
-    public DrawerLayout drawerLayout;
-    public ActionBarDrawerToggle actionBarDrawerToggle;
+public class Registration extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+        setContentView(R.layout.activity_registration);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -31,13 +24,12 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
         switch (item.getItemId()) {
             case R.id.nav_main:
-                setContentView(R.layout.activity_main);
+                changeActivityToMain();
                 return true;
             case R.id.nav_about:
                 changeActivityToAbout();
@@ -51,6 +43,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void changeActivityToMain() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
     public void changeActivityToAbout() {
         Intent intent = new Intent(this, About.class);
         startActivity(intent);
@@ -60,4 +57,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Login.class);
         startActivity(intent);
     }
+
+    public void registration(View v) {
+        Intent intent = new Intent(this, Login.class);
+        startActivity(intent);
+
+    }
+
+
 }
