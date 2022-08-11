@@ -17,5 +17,8 @@
     <string name="phone">Kontakt telefon:</string>
     <string name="username">Korisničko ime:</string>
     <string name="password">Lozinka:</string>
+    <string name="addToCart">Dodaj u korpu</string>
+    <string name="recommend">Preporuči</string>
+    <string name="commentView">Pogledaj komentare</string>
 
 </resources>

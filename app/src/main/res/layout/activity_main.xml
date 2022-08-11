@@ -49,12 +49,14 @@
                         android:orientation="vertical">
 
                         <ImageButton
+                            android:id="@+id/anaKarenjina"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:adjustViewBounds="true"
                             android:scaleType="fitCenter"
                             android:scaleX="0.7"
                             android:scaleY="0.7"
+                            android:onClick="changeToAnaKarenjina"
                             android:src="@drawable/ana_karenjina" />
 
                         <TextView

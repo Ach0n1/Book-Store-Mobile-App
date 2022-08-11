@@ -70,7 +70,8 @@ public class Login extends AppCompatActivity {
 
     public void login(View v) {
         if (editTextUsername.getText().toString().equals("pera") && editTextPassword.getText().toString().equals("pera.123")) {
-            Intent intent = new Intent(this, LoggedInMain.class);
+            Intent intent = new Intent(this, MainActivity.class);
+            intent.putExtra("loggedIn",1);
             startActivity(intent);
         } else {
 
