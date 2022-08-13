@@ -82,7 +82,7 @@
                         android:textSize="18dp"
                         android:text="@string/recommend"
                         android:textColor="@color/white"
-                        android:onClick="">
+                        android:onClick="recommend">
                     </Button>
 
                     <Button
