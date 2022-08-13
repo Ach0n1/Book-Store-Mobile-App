@@ -20,5 +20,6 @@
     <string name="addToCart">Dodaj u korpu</string>
     <string name="recommend">Preporuči</string>
     <string name="commentView">Pogledaj komentare</string>
+    <string name="recommendBookToOtherUser">Unesite korisničko ime korisnika kojem želite da preporučite ovu knjigu:</string>
 
 </resources>

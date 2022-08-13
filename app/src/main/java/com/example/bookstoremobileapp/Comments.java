@@ -1,43 +1,35 @@
 package com.example.bookstoremobileapp;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 
-import android.app.Dialog;
-import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Editable;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class AnaKarenjina extends AppCompatActivity {
+public class Comments extends AppCompatActivity {
 
     private int loggedIn;
-    private TextView bookTitleTextView;
     private String bookTitle;
-
+    private TextView bookTitleTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ana_karenjina);
+        setContentView(R.layout.activity_comments);
         bookTitleTextView = findViewById(R.id.bookTitle);
-        bookTitle = bookTitleTextView.getText().toString();
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             loggedIn = extras.getInt("loggedIn");
+            bookTitle = extras.getString("bookTitle");
+            bookTitleTextView.setText("Komentari naših čitalaca za knjigu " + '"'+bookTitle+'"');
         } else {
             loggedIn = 0;
         }
+
     }
 
     @Override
@@ -129,27 +121,6 @@ public class AnaKarenjina extends AppCompatActivity {
     public void changeActivityToMainLoggedOut() {
         Intent intent = new Intent(this, MainActivity.class);
         intent.putExtra("loggedIn", 0);
-        startActivity(intent);
-    }
-
-    public void recommend(View view) {
-
-//
-
-    }
-
-
-    public void addToCart(View view) {
-        Toast toast = Toast.makeText(getApplicationContext(),
-                "Knjiga je uspešno dodata u korpu!",
-                Toast.LENGTH_SHORT);
-        toast.show();
-    }
-
-    public void bookComments(View view) {
-        Intent intent = new Intent(this, Comments.class);
-        intent.putExtra("loggedIn", loggedIn);
-        intent.putExtra("bookTitle", bookTitle);
         startActivity(intent);
     }
 }
