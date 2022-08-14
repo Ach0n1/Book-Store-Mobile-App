@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Recommendation extends AppCompatActivity {
 
@@ -113,6 +114,24 @@ public class Recommendation extends AppCompatActivity {
     public void changeActivityToMainLoggedOut() {
         Intent intent = new Intent(this, MainActivity.class);
         intent.putExtra("loggedIn", 0);
+        startActivity(intent);
+    }
+
+    public void changeToServeToWin(View view) {
+        Intent intent = new Intent(this, ServeToWin.class);
+        intent.putExtra("loggedIn", loggedIn);
+        startActivity(intent);
+    }
+
+    public void changeToImpureBlood(View view) {
+        Intent intent = new Intent(this, ImpureBlood.class);
+        intent.putExtra("loggedIn", loggedIn);
+        startActivity(intent);
+    }
+
+    public void changeToSemperIdem(View view) {
+        Intent intent = new Intent(this, SemperIdem.class);
+        intent.putExtra("loggedIn", loggedIn);
         startActivity(intent);
     }
 

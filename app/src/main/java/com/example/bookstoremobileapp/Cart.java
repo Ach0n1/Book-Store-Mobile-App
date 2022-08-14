@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 public class Cart extends AppCompatActivity {
 
@@ -117,4 +119,25 @@ public class Cart extends AppCompatActivity {
     }
 
 
+    public void changeToWarrior(View view) {
+        Intent intent = new Intent(this, Warrior.class);
+        intent.putExtra("loggedIn", loggedIn);
+        startActivity(intent);
+    }
+
+    public void changeToImpureBlood(View view) {
+        Intent intent = new Intent(this, ImpureBlood.class);
+        intent.putExtra("loggedIn", loggedIn);
+        startActivity(intent);
+    }
+
+    public void changeToMain(View view) {
+        Toast toast = Toast.makeText(getApplicationContext(),
+                "Porudžbina prihvaćena!",
+                Toast.LENGTH_SHORT);
+        toast.show();
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.putExtra("loggedIn", loggedIn);
+        startActivity(intent);
+    }
 }
