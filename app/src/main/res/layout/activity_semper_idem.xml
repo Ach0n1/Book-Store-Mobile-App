@@ -9,7 +9,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:background="@drawable/background"
-    tools:context=".AnaKarenjina"
+    tools:context=".SemperIdem"
     tools:ignore="HardcodedText">
 
     <ScrollView
@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:gravity="center"
-                android:text="Ana Karenjina"
+                android:text="Semper idem"
                 android:textColor="@color/red"
                 android:textSize="40dp"
                 android:id="@+id/bookTitle"
@@ -41,7 +41,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/ana_karenjina" />
+                app:srcCompat="@drawable/semper_idem" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -105,7 +105,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="20dp"
-                android:text="Autor: Lav Tolstoj"
+                android:text="Autor: Đorđe Lebović"
                 android:textColor="@color/gray"
                 android:textSize="24sp" />
 
@@ -116,7 +116,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
-                android:text="Broj strana: 896"
+                android:text="Broj strana: 403"
                 android:textColor="@color/gray"
                 android:textSize="24sp" />
 
@@ -127,7 +127,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
-                android:text="Opis: Roman koji je Fjodor Dostojevski smatrao besprekornim, a Vilijam Fokner nazvao najboljim romanom koji je ikada napisan, Ana Karenjina je monumentalno delo Lava Tolstoja koji daje sveobuhvatan prikaz ruskog društva devetnaestog veka, od aristokratskih salona do seoskih gazdinstava. Uvodeći dva narativna toka, prvi koji prati ljubavnu priču između Ane i Vronskog i drugi koji prati odnos između Kiti i Ljevina, Lav Tolstoj ispisuje svevremene stranice o porodici, gubitku, ljubavi, izdaji, veri i prijateljstvu."
+                android:text="Opis: Premda za života poznat prevashodno kao dramaturg i scenarista (Nebeski odred, Haleluja, Viktorija, Traganje po pepelu, Ravangrad 1900, Valter brani Sarajevo i dr.), Lebović je pisao i novele i objavljivao ih u časopisima 60-ih i 70-ih godina XX veka. Ipak, opus magnum Đorđa Lebovića, po jedinstvenoj oceni kritike, predstavlja upravo ovo njegovo testamentarno delo, roman-hronika o detinjstvu u Kraljevini Jugoslaviji uoči II svetskog rata, koja je i zbog osobenog piščevog stila i originalnog postupka, kao i zbog teme i njene književne transpozicije, prepoznata kao kanonsko delo savremene srpske književnosti. Ispričan iz perspektive dečaka koji posmatra približavanje „Velikog Sunovrata“ – širenja nacizma u svojoj okolini koliko i u Evropi – pisac je u vidu imao paralelu između ondašnjeg ludila i rata koji je u Jugoslaviji buknuo 90-ih godina prošlog veka. U ratu je izgubio četrdeset članova svoje porodice a sam, kao četrnaestogodišnjak, prošao pakao Aušvica. „Knjige ne bi bilo da se opet nisam našao u vrtlogu velikog Zla koje sam dobro upoznao pedeset godina ranije“, priznaće pisac u jednom razgovoru pred kraj života."
                 android:textColor="@color/gray"
                 android:gravity="left"
                 android:textSize="24sp" />
@@ -140,7 +140,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:text="Cena: 1099 din"
+                android:text="Cena: 1299 din"
                 android:textColor="@color/gray"
                 android:textSize="24sp" />
 

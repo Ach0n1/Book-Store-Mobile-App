@@ -96,6 +96,7 @@
                             android:scaleType="fitCenter"
                             android:scaleX="0.7"
                             android:scaleY="0.7"
+                            android:onClick="changeToEvgenijeOnjegin"
                             android:src="@drawable/evgenije_onjegin" />
 
                         <TextView
@@ -135,6 +136,7 @@
                             android:scaleType="fitCenter"
                             android:scaleX="0.7"
                             android:scaleY="0.7"
+                            android:onClick="changeToDigitalGold"
                             android:src="@drawable/digitalno_zlato" />
 
                         <TextView
@@ -173,6 +175,7 @@
                             android:scaleType="fitCenter"
                             android:scaleX="0.7"
                             android:scaleY="0.7"
+                            android:onClick="changeToWarrior"
                             android:src="@drawable/ratnik" />
 
                         <TextView
@@ -221,6 +224,7 @@
                 android:scaleType="fitCenter"
                 android:scaleX="0.7"
                 android:scaleY="0.7"
+                android:onClick="changeToServeToWin"
                 android:src="@drawable/serviraj_za_pobedu" />
 
             <TextView
@@ -251,6 +255,7 @@
                 android:scaleType="fitCenter"
                 android:scaleX="0.7"
                 android:scaleY="0.7"
+                android:onClick="changeToImpureBlood"
                 android:src="@drawable/necista_krv" />
 
             <TextView
@@ -282,6 +287,7 @@
                 android:scaleType="fitCenter"
                 android:scaleX="0.7"
                 android:scaleY="0.7"
+                android:onClick="changeToSemperIdem"
                 android:src="@drawable/semper_idem" />
 
             <TextView

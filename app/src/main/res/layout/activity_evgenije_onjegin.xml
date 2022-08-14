@@ -9,7 +9,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:background="@drawable/background"
-    tools:context=".AnaKarenjina"
+    tools:context=".EvgenijeOnjegin"
     tools:ignore="HardcodedText">
 
     <ScrollView
@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:gravity="center"
-                android:text="Ana Karenjina"
+                android:text="Evgenije Onjegin"
                 android:textColor="@color/red"
                 android:textSize="40dp"
                 android:id="@+id/bookTitle"
@@ -41,7 +41,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/ana_karenjina" />
+                app:srcCompat="@drawable/evgenije_onjegin" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -105,7 +105,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="20dp"
-                android:text="Autor: Lav Tolstoj"
+                android:text="Autor: Aleksandar Puškin"
                 android:textColor="@color/gray"
                 android:textSize="24sp" />
 
@@ -116,7 +116,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
-                android:text="Broj strana: 896"
+                android:text="Broj strana: 254"
                 android:textColor="@color/gray"
                 android:textSize="24sp" />
 
@@ -127,7 +127,9 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
-                android:text="Opis: Roman koji je Fjodor Dostojevski smatrao besprekornim, a Vilijam Fokner nazvao najboljim romanom koji je ikada napisan, Ana Karenjina je monumentalno delo Lava Tolstoja koji daje sveobuhvatan prikaz ruskog društva devetnaestog veka, od aristokratskih salona do seoskih gazdinstava. Uvodeći dva narativna toka, prvi koji prati ljubavnu priču između Ane i Vronskog i drugi koji prati odnos između Kiti i Ljevina, Lav Tolstoj ispisuje svevremene stranice o porodici, gubitku, ljubavi, izdaji, veri i prijateljstvu."
+                android:text="Opis: Evgenije Onjegin je roman ruskog autora Aleksandra Sergejeviča Puškina koji je jedan od prvih pisaca koji je počeo da piše na govornom jeziku i koji se takođe smatra osnivačem ruske savremene književnosti. Puškin kombinira rusku kulturu sa zapadnoevropskom tradicijom čiji se uticaj očituje i u ovom romanu. Na romanu je radio više od sedam godina i smatra se njegovim najboljim delom kao i jednim od najznačajnijih dela ruske literature.
+
+Poklonici bitkoina, od Pekinga do Buenos Ajresa, u njemu vide mogućnost postojanja finansijskog sistema bez uticaja vlade ili banaka, novu globalnu valutu digitalne ere. Digitalno zlato je neobična priča o jednom grupnom izumu, pripovest o ličnostima koje su stvorile bitkoin, uključujući i jednog finskog studenta, argentinskog milionera, kineskog preduzetnika, Tajlera i Kamerona Vinklvosa, tajanstvenog tvorca bitkoina Satošija Nakamota, kao i Rosa Ulbrihta, osnivača Silk rouda, tržišta narkotika na internetu."
                 android:textColor="@color/gray"
                 android:gravity="left"
                 android:textSize="24sp" />
@@ -140,7 +142,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:text="Cena: 1099 din"
+                android:text="Cena: 799 din"
                 android:textColor="@color/gray"
                 android:textSize="24sp" />
 

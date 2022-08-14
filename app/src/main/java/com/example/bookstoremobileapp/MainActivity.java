@@ -141,4 +141,39 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void changeToEvgenijeOnjegin(View view) {
+        Intent intent = new Intent(this, EvgenijeOnjegin.class);
+        intent.putExtra("loggedIn", loggedIn);
+        startActivity(intent);
+    }
+
+    public void changeToDigitalGold(View view) {
+        Intent intent = new Intent(this, DigitalGold.class);
+        intent.putExtra("loggedIn", loggedIn);
+        startActivity(intent);
+    }
+
+    public void changeToWarrior(View view) {
+        Intent intent = new Intent(this, Warrior.class);
+        intent.putExtra("loggedIn", loggedIn);
+        startActivity(intent);
+    }
+
+    public void changeToServeToWin(View view) {
+        Intent intent = new Intent(this, ServeToWin.class);
+        intent.putExtra("loggedIn", loggedIn);
+        startActivity(intent);
+    }
+
+    public void changeToImpureBlood(View view) {
+        Intent intent = new Intent(this, ImpureBlood.class);
+        intent.putExtra("loggedIn", loggedIn);
+        startActivity(intent);
+    }
+
+    public void changeToSemperIdem(View view) {
+        Intent intent = new Intent(this, SemperIdem.class);
+        intent.putExtra("loggedIn", loggedIn);
+        startActivity(intent);
+    }
 }

@@ -23,7 +23,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class AnaKarenjina extends AppCompatActivity {
+public class EvgenijeOnjegin extends AppCompatActivity {
 
     private int loggedIn;
     private TextView bookTitleTextView;
@@ -35,7 +35,7 @@ public class AnaKarenjina extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ana_karenjina);
+        setContentView(R.layout.activity_evgenije_onjegin);
         bookTitleTextView = findViewById(R.id.bookTitle);
         bookTitle = bookTitleTextView.getText().toString();
         Bundle extras = getIntent().getExtras();

@@ -25,7 +25,7 @@ public class Comments extends AppCompatActivity {
         if (extras != null) {
             loggedIn = extras.getInt("loggedIn");
             bookTitle = extras.getString("bookTitle");
-            bookTitleTextView.setText("Komentari naših čitalaca za knjigu " + '"'+bookTitle+'"');
+            bookTitleTextView.setText(bookTitle);
         } else {
             loggedIn = 0;
         }

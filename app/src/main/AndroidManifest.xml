@@ -14,6 +14,24 @@
         android:theme="@style/Theme.BookStoreMobileApp"
         tools:targetApi="31">
         <activity
+            android:name=".ImpureBlood"
+            android:exported="false" />
+        <activity
+            android:name=".SemperIdem"
+            android:exported="false" />
+        <activity
+            android:name=".ServeToWin"
+            android:exported="false" />
+        <activity
+            android:name=".Warrior"
+            android:exported="false" />
+        <activity
+            android:name=".DigitalGold"
+            android:exported="false" />
+        <activity
+            android:name=".EvgenijeOnjegin"
+            android:exported="false" />
+        <activity
             android:name=".Comments"
             android:exported="false" />
         <activity

@@ -9,7 +9,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="center"
     android:background="@drawable/background"
-    tools:context=".AnaKarenjina"
+    tools:context=".ImpureBlood"
     tools:ignore="HardcodedText">
 
     <ScrollView
@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:gravity="center"
-                android:text="Ana Karenjina"
+                android:text="Nečista krv"
                 android:textColor="@color/red"
                 android:textSize="40dp"
                 android:id="@+id/bookTitle"
@@ -41,7 +41,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/ana_karenjina" />
+                app:srcCompat="@drawable/necista_krv" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -105,7 +105,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="20dp"
-                android:text="Autor: Lav Tolstoj"
+                android:text="Autor: Borisav Stanković"
                 android:textColor="@color/gray"
                 android:textSize="24sp" />
 
@@ -116,7 +116,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
-                android:text="Broj strana: 896"
+                android:text="Broj strana: 403"
                 android:textColor="@color/gray"
                 android:textSize="24sp" />
 
@@ -127,7 +127,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
-                android:text="Opis: Roman koji je Fjodor Dostojevski smatrao besprekornim, a Vilijam Fokner nazvao najboljim romanom koji je ikada napisan, Ana Karenjina je monumentalno delo Lava Tolstoja koji daje sveobuhvatan prikaz ruskog društva devetnaestog veka, od aristokratskih salona do seoskih gazdinstava. Uvodeći dva narativna toka, prvi koji prati ljubavnu priču između Ane i Vronskog i drugi koji prati odnos između Kiti i Ljevina, Lav Tolstoj ispisuje svevremene stranice o porodici, gubitku, ljubavi, izdaji, veri i prijateljstvu."
+                android:text="Opis: U priči o stradanju čuvene vranjanske lepotice Sofke, prvi put u našoj književnosti, spoljašnji svet se uspostavlja kao suptilni odraz čulne uznemirenosti, intimnih doživljaja, slutnji i podsvesnih zbivanja jedne žene – izuzetne koliko lepotom toliko i snažnom samosvešću. Prvi put žensko i muško telo, erotske žudnje i seksualna htenja dobijaju prvorazredni književni značaj, a likovi žestokog temperamenta, orijentalno egzotični, određeni arhaičnim jezikom i kulturom, rastrzani između svojih nagona i društveno nametnutog postojanja, postaju tragične univerzalne figure u kojima prepoznajemo večne protivrečnosti postojanja."
                 android:textColor="@color/gray"
                 android:gravity="left"
                 android:textSize="24sp" />
@@ -140,7 +140,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:text="Cena: 1099 din"
+                android:text="Cena: 799 din"
                 android:textColor="@color/gray"
                 android:textSize="24sp" />
 
